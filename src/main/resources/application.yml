@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: congig-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://bitbucket.dev.smbc.nasdaqomx.com/scm/~shalan/alerts-config.git
+          repos:
+            local:
+              pattern: local*
+              uri: file://${user.home}/local-config
