@@ -12,3 +12,6 @@ spring:
             local:
               pattern: local*
               uri: file://${user.home}/local-config
+  jackson:
+    serialization:
+      indent_output: true
