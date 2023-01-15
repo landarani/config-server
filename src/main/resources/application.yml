@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://bitbucket.dev.smbc.nasdaqomx.com/scm/~shalan/alerts-config.git
+          uri: https://github.com/landarani/abnamro-config.git
           repos:
             local:
               pattern: local*
